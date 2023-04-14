@@ -1,5 +1,6 @@
 "use-strict";
 
+// Tic Tac Toe project
 const App = {
   // All of our selected HTML documents
   $: {
