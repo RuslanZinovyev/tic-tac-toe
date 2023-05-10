@@ -71,6 +71,13 @@ const App = {
     App.$.newRoundBtn.addEventListener("click", (event) => {
       console.log("Add a new round");
     });
+
+    App.$.modalBtn.addEventListener("click", (event) => {
+      App.state.moves = [];
+      App.$.squares.forEach((square) => square.replaceChildren());
+      App.$.modal.classList.add("hidden");
+    });
+
     // TODO
     App.$.squares.forEach((square) => {
       square.addEventListener("click", (event) => {
