@@ -2,7 +2,6 @@
 
 // Tic Tac Toe project
 const App = {
-  // All of our selected HTML documents
   $: {
     menu: document.querySelector('[data-id="menu"]'),
     menuItems: document.querySelector('[data-id="menu-items"]'),
